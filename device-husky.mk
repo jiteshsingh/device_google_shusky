@@ -386,6 +386,14 @@ endif
 # Setup Wizard device-specific settings
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.enable_quick_start_flow=true \
+PRODUCT_PRODUCT_PROPERTIES += \
+    setupwizard.theme=glif_v4_light \
+
+# // TODO: dont merge // needs testing on husky // try this if the above PRODUCT_PRODUCT_PROPERTIES assignment doesn't work
+# following works for emulator
+# PRODUCT_SYSTEM_PROPERTIES += \
+#     setupwizard.theme=glif_v4_light \
+# // TOOD: end
 
 # Quick Start device-specific settings
 PRODUCT_PRODUCT_PROPERTIES += \
